@@ -435,7 +435,7 @@ public class GameController : MonoBehaviour
 
     public void SetDefaultPanel()
     {
-        //RegisterPanel.SetActive(false);
+        NewDevicePanel.SetActive(false);
         DefaultPanel.SetActive(true);
         GameOverPanel.SetActive(false);
         ShopPanel.SetActive(false);
